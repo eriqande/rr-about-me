@@ -1,0 +1,89 @@
+---
+title: "Who I am, What I do, Why I want to Learn This"
+csl: molecular-ecology.csl
+output:
+  html_document:
+    highlight: pygments
+bibliography: about.bib
+---
+
+-----
+
+
+```{r, include=FALSE}
+# Here we set some values so that eric can easily extract these values
+# students, please replace these with values that are appropriate to you!
+# Note that modifying these will propagate changes to the text
+# downstream.
+my_name <- "Eric C. Anderson"
+my_github <- "eriqande"
+my_R_experience <- 65  # read below to see what the scale is (0 to 100)
+my_R_years <- 15
+my_git_experience <- 28
+my_git_years <- 1
+ok_to_post <- TRUE  # Set to FALSE if you don't want this to possibly be posted on the course website
+```
+
+
+# About `r my_name`
+
+## Who I am and What I do
+
+Hello my name is `r my_name` and my GitHub handle is `r my_github`.  I am a
+statistical geneticist at NMFS.  I am interested in most aspects of the statistical
+analysis of genetic data, but, currently, my most active area of research involves
+the application of factor graphs [@kschischang2001factor] for computationally efficient inference of 
+pedigrees from genetic data.
+
+## Experience with R and GitHub
+I've been using R (or its commercial predecessor, S) for about `r my_R_years` years.  Even
+still, I didn't start enjoying the language until a few years ago.  On a scale of 0
+to 100, with 0 being a complete neophyte and 100 being a member of the R core team
+or Hadley Wickham, I think I probably fit in at about a `r my_R_experience`.  
+
+I've been using git and GitHub not nearly as long, perhaps `r my_git_years` year,
+but found them to be so useful 
+that I have been trying to get all my collaborators capable of using them, because
+it really seems like the way forward.  On a scale of 0
+to 100 , with 0 being a complete neophyte and 100 being Linus Torvalds, I think I probably fit in at about a `r my_git_experience`. 
+
+## What I do when I am not working
+Here we have a section to practice using lists and links.  When I have time, I like
+to do active things.  Currently my top three activities are:
+
+1. Mountain biking
+1. Swimming
+1. Rock climbing
+
+My favorite thing about all these things is that I get to do most of them with my
+7-year old daughter Zoe and my wife Kristen (who is a kick-ass bird researcher.  In fact, check out this write-up that her most recent article got in Science News: [Hidden bird migrations revealed by DNA](http://news.sciencemag.org/biology/2014/08/hidden-bird-migrations-revealed-dna))
+
+
+
+## The project that I want to do "Reproducibly"
+OK, everyone, take it away from here.  Note that you should have 
+followed the instructions to switch to a git branch named `student-edits`
+(i.e. the `checkout -b student-edits` part of the instructions.)
+
+Please change the verbiage above to tell me about _yourself_.
+Get some practice using lists and links.  Maybe put a photo in there if you wanted to.  Try to use 
+all the different constructs that I used in [grandma-recipe](https://raw.githubusercontent.com/eriqande/grandma-recipe/master/auto-recipe.Rmd).
+Have fun!
+
+Please try to give a detailed account of the data set that you are wrangling at the moment
+and some of the programming or analytical challenges that you face with it.
+
+Or, if you don't have a data set you are working with but just want to learn
+to use R to avoid endless repetitive tasks using Excel, let me know about
+those repetitive tasks.
+
+If you are already familiar with R and have your data set and don't feel it
+is confidential data, the feel free to add that as an .Rda file 
+to the repository and do some preliminary calculations with it, or 
+`head()` the thing so we can see what it looks like.
+
+# References
+
+
+
+
