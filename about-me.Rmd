@@ -78,7 +78,7 @@ to use R to avoid endless repetitive tasks using Excel, let me know about
 those repetitive tasks.
 
 If you are already familiar with R and have your data set and don't feel it
-is confidential data, the feel free to add that as an .Rda file 
+is confidential data, then feel free to add that as an .Rda file 
 to the repository and do some preliminary calculations with it, or 
 `head()` the thing so we can see what it looks like.
 
